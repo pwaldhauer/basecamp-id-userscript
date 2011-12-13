@@ -23,6 +23,4 @@ for(var i = 0; i < items.length; i++) {
 	var span = document.getElementById('item_wrap_' + itemId);
 	
 	span.innerHTML = '[' + itemId + '] ' + span.innerHTML;
-	
-	console.log(item.getAttribute('record'));
 }
